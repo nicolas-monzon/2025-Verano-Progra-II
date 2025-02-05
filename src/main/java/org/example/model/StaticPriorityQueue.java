@@ -61,6 +61,7 @@ public class StaticPriorityQueue implements PriorityQueue {
             }
             this.values[0] = a;
             this.priorities[0] = priority;
+            this.count++;
             return;
         }
 
@@ -77,6 +78,7 @@ public class StaticPriorityQueue implements PriorityQueue {
             }
             this.values[candidate] = a;
             this.priorities[candidate] = priority;
+            this.count++;
             return;
         }
 

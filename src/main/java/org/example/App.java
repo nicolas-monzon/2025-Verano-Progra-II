@@ -1,21 +1,17 @@
 package org.example;
 
-import org.example.model.Stack;
-import org.example.model.StaticStack;
-
-import static org.example.util.StackUtil.print;
+import org.example.model.Dictionary;
+import org.example.model.StaticDictionary;
+import org.example.util.DictionaryUtil;
 
 public class App {
 
     public static void main(String[] args) {
-        Stack stack = new ListStack();
-        stack.add(1);
-        stack.add(2);
-        stack.add(3);
-        stack.add(4);
-        stack.add(5);
-        print(stack);
-        print(stack);
+        Dictionary dictionary = new StaticDictionary();
+        dictionary.add(1, 2);
+        dictionary.add(2, 4);
+        dictionary.add(8, 16);
+        DictionaryUtil.print(dictionary);
     }
 
 }

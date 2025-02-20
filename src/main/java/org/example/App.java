@@ -1,10 +1,7 @@
 package org.example;
 
 import org.example.model.BinaryTree;
-import org.example.model.Dictionary;
 import org.example.model.DynamicBinaryTree;
-import org.example.model.StaticDictionary;
-import org.example.util.DictionaryUtil;
 
 public class App {
 
